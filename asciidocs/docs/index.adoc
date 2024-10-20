@@ -1,16 +1,6 @@
 = Projektantrag: Entwicklung eines Lernkartensystems für Schüler in JavaFX
 Melanie A. Bauer
-18-10-2024
-1.0, {docdate}
-ifndef::sourcedir[:sourcedir: ../src/main/java]
-ifndef::imagesdir[:imagesdir: images]
-ifndef::backend[:backend: html5]
-:icons: font
-:sectnums:
-:toc: left
-:source-highlighter: rouge
-:docinfo: shared
-image::img.png[align="center",width="200px"]    // zentriertes Bild einfügen
+18-10-2024 
 
 == 1. Projektname:
 **Lernkartensystem für Schüler**
