@@ -1,4 +1,81 @@
-= Index page
+= Projektantrag: Entwicklung eines Lernkartensystems für Schüler in JavaFX
+Melanie A. Bauer
+18-10-2024
+1.0, {docdate}
+ifndef::sourcedir[:sourcedir: ../src/main/java]
 ifndef::imagesdir[:imagesdir: images]
+ifndef::backend[:backend: html5]
+:icons: font
+:sectnums:
+:toc: left
+:source-highlighter: rouge
+:docinfo: shared
+image::img.png[align="center",width="200px"]    // zentriertes Bild einfügen
 
-image::img.png[]
+== 1. Projektname:
+**Lernkartensystem für Schüler**
+
+[.highlight] 
+== 2. Projektbeschreibung:
+Das Projekt besteht darin, **ein digitales Lernkartensystem** für Schüler zu entwickeln, das in **JavaFX** implementiert wird. Dieses System ermöglicht es den Benutzern, **Lernkarten** zu erstellen, die entweder eine **Frage mit Antwort** oder einen **Begriff mit Definition** enthalten. Lernkarten werden in einer **Ordnerstruktur** organisiert, die es den Schülern erlaubt, Karten nach Fächern und Themen zu sortieren. Die Benutzeroberfläche ist **intuitiv** und **einfach** gehalten, um Schülern aller Altersgruppen die Verwaltung ihres Lernmaterials zu erleichtern. Das System unterstützt das gezielte Wiederholen von Lerninhalten und bietet eine **moderne**, digitale Alternative zu herkömmlichen Lernkarten.
+
+[.highlight]
+== 3. Projektziel:
+Das Ziel des Projekts ist die Entwicklung eines **Desktop-Lernkartensystems** in JavaFX, das Schülern ermöglicht, eigene Lernkarten zu verschiedenen Fächern und Themen zu erstellen, zu verwalten und zu lernen. Das System wird **Ordnerstrukturen** unterstützen, sodass Lernkarten in Fächer und Themen organisiert werden können. Das Tool fördert das **aktive Wiederholen** von Inhalten durch eine **intuitive** Benutzeroberfläche.
+
+== 4. Projektnutzen:
+[cols="1,1",options="header",]
+|===
+| _Vorteil_ | _Beschreibung_
+
+| **Effizientes Lernen**
+| Schüler können ihre eigenen Karten erstellen und nach Fächern und Themen sortieren. Dies fördert eine systematische und strukturierte Wiederholung.
+
+| **Einfache Verwaltung**
+| Herkömmliche papierbasierte Lernkarten sind schwer zu organisieren. Digitale Karten sind flexibler und können jederzeit angepasst werden.
+
+| **Langfristiger Wissensaufbau**
+| Durch regelmäßige Wiederholung mit dem System können Schüler Wissen besser festigen und langfristig behalten.
+|===
+
+== 5. Projektumfang:
+* **Lernkarten erstellen**: Schüler können Lernkarten mit Fragen und Antworten oder Begriffen und Definitionen erstellen.
+* **Lernkarten anzeigen**: Ein Klick auf die Frage/den Begriff zeigt die entsprechende Antwort/Definition an.
+* **Ordnerstruktur**: Es wird möglich sein, Ordner für verschiedene Fächer (z.B. Mathematik, Biologie) und Themen (z.B. Algebra, Zellbiologie) zu erstellen und darin die Karten zu organisieren.
+* **Karten verwalten**: Schüler können Karten hinzufügen, bearbeiten und löschen.
+* **Statistiken** (optional): Eine Funktion zur Verfolgung des Lernfortschritts, z.B. wie viele Karten ein Schüler gelernt hat.
+
+== 6. Anforderungen und technische Umsetzung:
+[cols="2a,2a",options="header",]
+|===
+| _**Softwareanforderungen**_
+| _**Hardwareanforderungen**_
+
+| 
+- Java
+- JavaFX (für die Benutzeroberfläche)
+- Speicherung in JSON oder XML
+- Entwicklungsumgebung: IntelliJ IDEA
+| 
+- Standard-PC oder Laptop, der Java-Anwendungen ausführen kann
+|===
+
+
+== 7. Risiken und Herausforderungen:
+* **Benutzerfreundlichkeit**: Die GUI muss intuitiv und einfach zu bedienen sein.
+* **Speicherung und Datenintegrität**: Datenverlust muss vermieden werden.
+* **Erweiterbarkeit**: Das System sollte später leicht erweitert werden können.
+
+== 10. Erfolgskriterien:
+Das Projekt gilt als erfolgreich, wenn:
+
+- Der Benutzer Lernkarten für verschiedene Fächer und Themen erstellen, bearbeiten und löschen kann.
+- Lernkarten in einer Ordnerstruktur organisiert werden können.
+- Die Lernkarten beim Anklicken die Antwort/Definition anzeigen.
+- Das System stabil und benutzerfreundlich funktioniert.
+
+== 8. Konsequenzen der Nichtumsetzung:
+Die Nichtdurchführung des Projekts hat mehrere negative Konsequenzen. Schüler hätten weiterhin keine benutzerfreundliche Möglichkeit, Lernkarten digital zu erstellen und zu verwalten, was zu einer ineffizienten und unorganisierten Lernweise führen könnte. Ohne ein strukturiertes System zur Wiederholung von Lerninhalten besteht die Gefahr, dass Schüler Schwierigkeiten haben, Wissen langfristig zu behalten. Darüber hinaus würde das Fehlen eines solchen Tools die Nutzung moderner Technologien im Lernprozess verlangsamen, was zu einem Rückstand in der Digitalisierung des Unterrichts führen könnte. Schüler wären gezwungen, auf umständlichere analoge Methoden zurückzugreifen, die weniger flexibel und zeitaufwendig sind.
+
+== 9. Fazit:
+Das **Lernkartensystem für Schüler** bietet ein praktisches Tool zur Organisation und Wiederholung von Lerninhalten. Mit einer **benutzerfreundlichen Oberfläche** und der Unterstützung von **Ordnerstrukturen** stellt das Tool eine digitale Alternative zu herkömmlichen Lernkarten dar.
